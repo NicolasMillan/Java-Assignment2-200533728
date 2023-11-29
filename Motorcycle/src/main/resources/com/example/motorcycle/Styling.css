@@ -1,0 +1,31 @@
+.root{
+    -fx-font-family: "Arial Narrow";
+    --block-text-color: white;
+}
+
+/*First Scene*/
+#anchorPane{
+    -fx-background-color: dodgerblue;
+}
+#getSpecificationsButton{
+    -fx-padding: 5px;
+    --block-text-color: white;
+}
+#submitButton{
+    -fx-padding: 5px;
+    --block-text-color: white;
+}
+#errorLabel{
+    -fx-padding: 5px;
+    --block-text-color: red;
+}
+
+/*Second Scene*/
+#anchorPaneStatistics{
+    -fx-background-color: dodgerblue;
+}
+#gobackButton{
+    -fx-padding: 5px;
+    --block-text-color: white;
+}
+
