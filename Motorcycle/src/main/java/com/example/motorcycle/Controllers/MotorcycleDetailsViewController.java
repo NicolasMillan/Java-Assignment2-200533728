@@ -52,7 +52,7 @@ public class MotorcycleDetailsViewController {
     @FXML
     void goBackButton_onClick(ActionEvent event) throws IOException {
 
-//        SceneChanger.changeScene(event, "search-view.fxml", "Motorcycle Search", "-1", "-1");
+        SceneChanger.changeScene(event, "search-view.fxml", "Motorcycle Search", "-1", "-1");
 
     }
 
