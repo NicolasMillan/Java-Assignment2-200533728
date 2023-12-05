@@ -1,31 +1,41 @@
-.root{
+.root {
     -fx-font-family: "Arial Narrow";
     --block-text-color: white;
 }
 
-/*First Scene*/
-#anchorPane{
+/* First Scene */
+#anchorPane {
     -fx-background-color: dodgerblue;
 }
-#getSpecificationsButton{
-    -fx-padding: 5px;
-    --block-text-color: white;
+#getSpecificationsButton, #submitButton {
+    -fx-padding: 10px;
+    -fx-background-color: #3498db; /* Blue background color */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px; /* Rounded corners */
 }
-#submitButton{
-    -fx-padding: 5px;
-    --block-text-color: white;
+#getSpecificationsButton:hover, #submitButton:hover {
+    -fx-background-color: #2980b9; /* Darker blue on hover */
 }
-#errorLabel{
+#errorLabel {
     -fx-padding: 5px;
-    --block-text-color: red;
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
 }
 
-/*Second Scene*/
-#anchorPaneStatistics{
+/* Second Scene */
+#anchorPaneStatistics {
     -fx-background-color: dodgerblue;
 }
-#gobackButton{
-    -fx-padding: 5px;
-    --block-text-color: white;
+#gobackButton {
+    -fx-padding: 10px;
+    -fx-background-color: #e74c3c; /* Red background color */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px; /* Rounded corners */
 }
-
+#gobackButton:hover {
+    -fx-background-color: #c0392b; /* Darker red on hover */
+}
