@@ -1,6 +1,7 @@
 package com.example.motorcycle.Models;
 
 public class Motorcycle {
+//    No use of Serialized Name bacouse of the API is not necesary
     private String make;
     private String model;
     private String year;
